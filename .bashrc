@@ -105,7 +105,8 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-export PATH=/home/s29zhu/researchproject/omnetpp-4.2.2/bin:$PATH
+
+export PATH=~/researchproject/omnetpp-4.2.2/bin:$PATH
 # make the corrent working directory show in the terminal shorter
 # for original format, see line 57
 export PS1="\u@\h>"
