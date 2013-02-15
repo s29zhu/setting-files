@@ -2,13 +2,14 @@
 if strftime("%H") < 6 + 0
 	colorscheme darkblue
 elseif strftime("%H") < 12 + 0
-	colorscheme morning
+	colorscheme desert
 elseif strftime("%H") < 18 + 0
-	colorscheme shine
+	colorscheme peachpuff
 else
 	colorscheme evening
 endif
 
+set nowrapscan
 set nu
 set tabstop=4
 set expandtab
