@@ -20,5 +20,6 @@ set copyindent
 set shiftwidth=4 "width used in each step of autoindent
 set textwidth=80 "number of columns before an automatic line break is inserted
 set autowrite
+set backspace=indent,eol,start
 syntax on
 
